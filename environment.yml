@@ -1,0 +1,6 @@
+name: kicad_test_fixture
+dependencies:
+ - python>=3.7,<3.12
+ - pip
+ - pip:
+   - kiutils

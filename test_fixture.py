@@ -36,7 +36,7 @@ new_pcb.generator = original_pcb.generator
 new_pcb.layers = original_pcb.layers
 
 # Save new file
-save_path = input("Specify full path to save test fixture pcb.\nIf none specified, will save to same directory")
+save_path = input("Specify full path to save test fixture pcb.\nIf none specified, will save to same directory\n")
 save_path = save_path.strip()
 
 if save_path == '' or not(os.path.isfile(save_path)):
